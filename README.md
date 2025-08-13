@@ -54,7 +54,7 @@ npm run dev
 
 
 ## 🧑‍💻 Author
-Your Name
-📧 your.email@example.com
-🔗 LinkedIn | GitHub
+Priyanshu Gusain
+📧 kandaripriyanshu1@gmail.com
+
 
