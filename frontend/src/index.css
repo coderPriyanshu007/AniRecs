@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Rajdhani:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Black+Han+Sans&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Zen+Dots&display=swap');
+
+@import "tailwindcss";
+@import '../public/css/style.css';
