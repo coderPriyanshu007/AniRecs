@@ -75,14 +75,14 @@ const AnimeCard = ({ anime, hovered }) => {
         <div className="flex flex-row flew-wrap mb-2">
           {anime.genres.slice(0, 3).map((genre, index) => {
             return (
-              <span
+              <div
                 key={index}
                 className={`p-[2px] px-1 rounded-md ${getGenreColor(
                   genre
                 )} me-2 text-[10px]`}
               >
                 {genre}
-              </span>
+              </div>
             );
           })}
         </div>
