@@ -21,8 +21,8 @@ const Navbar = () => {
        
         <div data-aos='fade-left' className="hidden md:block text-md font-[Rajdhani] text-gray-200 flex items-center">
          <Link  to="/anime-news" className="py-2 px-4 rounded-sm  ms-4 font-bold hover:bg-gray-900 hover:text-red-500">News</Link>
-         <Link to="" className="py-2 px-4 rounded-sm  ms-4 font-bold hover:bg-gray-900 hover:text-red-500">Login</Link>
-         <Link to="" className="py-2 px-4 rounded-sm bg-red-600 ms-4 font-bold">Sign Up</Link>
+         <Link to="/auth" className="py-2 px-4 rounded-sm  ms-4 font-bold hover:bg-gray-900 hover:text-red-500">Login</Link>
+         <Link to="/auth" className="py-2 px-4 rounded-sm bg-red-600 ms-4 font-bold">Sign Up</Link>
         </div>
         <div className="bg-gray-700/30 px-1 md:hidden backdrop-blur-sm rounded-md">
             <SamuraiBurger />
