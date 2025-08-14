@@ -52,7 +52,7 @@ const AnimeCard = ({ anime, hovered }) => {
           <img
             src={anime.thumbnail}
             alt={anime.titleEnglish}
-            className="w-full  max-h-[250px] object-cover"
+            className="w-full h-[250px] object-cover"
           />
         </div>
 
