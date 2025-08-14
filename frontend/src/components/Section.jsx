@@ -10,7 +10,7 @@ const Section = ({ title, animeList }) => {
       >
         {title}
       </h1>
-      <div className="grid grid-1 gap-4 grid-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid  gap-2 sm:gap-4 grid-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
         {animeList.map((anime, index) => (
           <AnimeComponent key={index} anime={anime}/>
         ))}
