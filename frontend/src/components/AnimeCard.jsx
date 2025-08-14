@@ -72,7 +72,7 @@ const AnimeCard = ({ anime, hovered }) => {
             </small>
           )}
         </div>
-        <div className="flex flex-row mb-2">
+        <div className="flex flex-row flew-wrap mb-2">
           {anime.genres.slice(0, 3).map((genre, index) => {
             return (
               <span
