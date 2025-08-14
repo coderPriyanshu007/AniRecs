@@ -1,7 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Upcoming from './upcoming';
+import Upcoming from 'Upcoming';
 
 
 const SideSection = ({animeList})=>{
