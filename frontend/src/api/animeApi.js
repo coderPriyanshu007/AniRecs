@@ -10,7 +10,7 @@ export const fetchPopularAnime = async () => {
     const response = await axios.get(`${API_URL}/popular`);
     return response.data;
   } catch (error) {
-    console.error("Error fetching popular anime:", error);
+    console.error("Error fetching popular anime:", error.message);
     return [];
   }
 };
